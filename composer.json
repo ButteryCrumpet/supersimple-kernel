@@ -1,5 +1,5 @@
 {
-    "name": "butterycrumpet/kernel",
+    "name": "butterycrumpet/supersimple-kernel",
     "description": "Super simple framework kernel",
     "type": "library",
     "require-dev": {
