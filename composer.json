@@ -1,0 +1,25 @@
+{
+    "name": "butterycrumpet/kernel",
+    "description": "Super simple framework kernel",
+    "type": "library",
+    "require-dev": {
+        "phpstan/phpstan": "^0.10.5",
+        "phpunit/phpunit": "^7.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ButteryCrumpet",
+            "email": "crumpetybumpety@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SuperSimpleKernel\\": "src"
+        }
+    },
+    "require": {
+        "psr/http-message": "^1.0",
+        "psr/http-server-handler": "^1.0"
+    }
+}
